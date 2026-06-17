@@ -11,3 +11,7 @@ Then run the following command from the root of this repo:
 ```bash
 $ ansible-builder build -v3 -t quay.io/ansible/awx-ee # --container-runtime=docker # Is podman by default
 ```
+
+# HOW TO USE IT
+
+ansible-builder build -v3 -t ralfoldminer/awx-ee:v2 --container-runtime=docker
